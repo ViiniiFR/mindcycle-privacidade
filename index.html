@@ -20,7 +20,7 @@
       text-align: center;
     }
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 2rem;
       background: white;
@@ -36,6 +36,10 @@
       font-size: 0.9rem;
       color: #6b7280;
     }
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -49,40 +53,52 @@
     <p>02 de setembro de 2025</p>
 
     <h2>1. Informações coletadas</h2>
-    <p>O <strong>MindCycle</strong> foi desenvolvido com foco em <strong>privacidade</strong>.</p>
+    <p>O <strong>MindCycle</strong> foi desenvolvido com foco em <strong>privacidade</strong>. O uso do aplicativo é possível de forma <strong>offline</strong>, sem necessidade de login, IA ou backup em nuvem.</p>
     <ul>
-      <li><strong>Dados pessoais:</strong> não solicitamos nome, e-mail ou outras informações de identificação, a menos que sejam estritamente necessários.</li>
-      <li><strong>Dados de uso:</strong> armazenamos apenas informações relacionadas às suas rotinas e hábitos criados dentro do app, salvos localmente em seu dispositivo ou, quando ativado, sincronizados em nuvem (se aplicável).</li>
-      <li><strong>Dados de terceiros:</strong> não coletamos informações de outras fontes sem o seu consentimento.</li>
+      <li><strong>Dados locais:</strong> hábitos, rotinas e configurações são armazenados diretamente no dispositivo do usuário.</li>
+      <li><strong>Exportação manual:</strong> o usuário pode exportar seus dados em formato JSON e armazená-los por conta própria.</li>
+      <li><strong>Dados pessoais (opcionais):</strong> ao criar conta com e-mail/senha ou Google Sign-In, coletamos nome e e-mail apenas para autenticação e sincronização.</li>
     </ul>
 
-    <h2>2. Como utilizamos suas informações</h2>
-    <p>As informações registradas têm como único objetivo:</p>
+    <h2>2. Funcionalidades opcionais</h2>
+    <p>O usuário pode optar por ativar recursos adicionais:</p>
     <ul>
-      <li>Permitir a criação e acompanhamento de rotinas e hábitos;</li>
-      <li>Melhorar sua experiência dentro do app;</li>
-      <li>Garantir que seus dados permaneçam privados e acessíveis apenas por você.</li>
+      <li><strong>Sincronização em nuvem:</strong> realizada via Firebase/Firestore, garantindo backup automático e acesso em múltiplos dispositivos.</li>
+      <li><strong>Integração com Inteligência Artificial:</strong> caso o usuário utilize o recurso de criação de rotinas via IA, os textos enviados serão processados pelos modelos da OpenAI (GPT-3.5, GPT-4, GPT-4 Turbo). Esses dados seguem a <a href="https://openai.com/policies" target="_blank">Política de Privacidade da OpenAI</a>.</li>
+    </ul>
+    <p>Essas funcionalidades são <strong>totalmente opcionais</strong>, e o usuário pode utilizar o MindCycle sem IA e sem nuvem.</p>
+
+    <h2>3. Como utilizamos suas informações</h2>
+    <ul>
+      <li>Permitir a criação, organização e acompanhamento de rotinas e hábitos.</li>
+      <li>Fornecer backup e sincronização em nuvem, se habilitado.</li>
+      <li>Gerar rotinas personalizadas via IA, se ativado pelo usuário.</li>
     </ul>
 
-    <h2>3. Armazenamento e segurança</h2>
-    <p>Os dados ficam armazenados <strong>localmente no dispositivo</strong>, a menos que você opte por ativar sincronização em nuvem. Utilizamos práticas adequadas de segurança para evitar perda, uso indevido ou acesso não autorizado.</p>
+    <h2>4. Armazenamento e segurança</h2>
+    <p>Os dados locais permanecem apenas no dispositivo do usuário. Quando ativada a sincronização em nuvem, os dados são armazenados de forma segura no Firebase. Adotamos práticas técnicas para proteger contra perda, uso indevido ou acesso não autorizado.</p>
 
-    <h2>4. Compartilhamento de informações</h2>
-    <p>Não vendemos, alugamos ou compartilhamos seus dados com terceiros. Somente em casos legais (ordens judiciais) informações poderão ser disponibilizadas às autoridades competentes.</p>
+    <h2>5. Compartilhamento de informações</h2>
+    <p>Não vendemos, alugamos ou compartilhamos seus dados com terceiros. Informações só podem ser compartilhadas se exigidas por lei (ordem judicial).</p>
 
-    <h2>5. Serviços de terceiros</h2>
-    <p>Caso sejam utilizados serviços como Google Firebase ou similares, eles poderão coletar dados técnicos necessários ao funcionamento. Recomendamos que leia também as políticas desses serviços.</p>
-
-    <h2>6. Seus direitos</h2>
+    <h2>6. Serviços de terceiros</h2>
     <ul>
-      <li>Acessar, editar ou excluir suas informações diretamente no app;</li>
-      <li>Solicitar suporte ou exclusão definitiva de dados armazenados em servidores (se houver sincronização em nuvem).</li>
+      <li><strong>Firebase/Firestore (Google):</strong> para autenticação, backup e sincronização em nuvem.</li>
+      <li><strong>OpenAI:</strong> para geração de rotinas personalizadas via IA (opcional).</li>
+    </ul>
+    <p>Recomendamos que consulte também as políticas de privacidade desses serviços.</p>
+
+    <h2>7. Seus direitos</h2>
+    <ul>
+      <li>Acessar, editar ou excluir suas informações diretamente no aplicativo.</li>
+      <li>Exportar seus dados em JSON a qualquer momento.</li>
+      <li>Excluir sua conta e todos os dados associados, tanto local quanto em nuvem.</li>
     </ul>
 
-    <h2>7. Alterações nesta política</h2>
-    <p>Podemos atualizar esta Política periodicamente. A versão mais recente sempre estará disponível dentro do aplicativo ou em nosso site oficial.</p>
+    <h2>8. Alterações nesta política</h2>
+    <p>Podemos atualizar esta Política de tempos em tempos. A versão mais recente sempre estará disponível dentro do aplicativo ou neste site.</p>
 
-    <h2>8. Contato</h2>
+    <h2>9. Contato</h2>
     <p>Se tiver dúvidas ou solicitações, entre em contato:<br>
     📧 <a href="mailto:vinidevcontato1@gmail.com">vinidevcontato1@gmail.com</a></p>
   </main>
