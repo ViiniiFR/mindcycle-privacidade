@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Política de Privacidade - MindCycle</title>
+  <meta name="description" content="Política de Privacidade do app MindCycle: uso offline, sincronização opcional via Firebase e recursos de IA opcionais via OpenAI, com foco em proteção de dados e LGPD.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="MindCycle">
+  <meta property="og:title" content="Política de Privacidade - MindCycle">
+  <meta property="og:description" content="Saiba como tratamos seus dados no MindCycle. Uso offline por padrão, sincronização e IA são opcionais.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="canonical" href="https://viiniifr.github.io/mindcycle-privacidade/">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,6 +26,28 @@
       color: white;
       padding: 1.5rem;
       text-align: center;
+    }
+    nav {
+      background: #eef2ff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    nav .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0.75rem 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    nav a {
+      color: #4338ca;
+      text-decoration: none;
+      font-size: 0.95rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+    }
+    nav a:hover {
+      background: #e0e7ff;
     }
     main {
       max-width: 900px;
@@ -40,6 +70,16 @@
       color: #4f46e5;
       text-decoration: none;
     }
+    ul { padding-left: 1.2rem; }
+    .note {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      color: #92400e;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
@@ -48,11 +88,33 @@
     <p>MindCycle – Seu app de rotinas e hábitos com foco em privacidade</p>
   </header>
 
+  <nav aria-label="Navegação principal">
+    <div class="container">
+      <a href="#atualizacao">Atualização</a>
+      <a href="#informacoes">Informações coletadas</a>
+      <a href="#funcionalidades-opcionais">Funcionalidades opcionais</a>
+      <a href="#base-legal">Base legal (LGPD)</a>
+      <a href="#categorias-dados">Categorias de dados</a>
+      <a href="#finalidades">Finalidades</a>
+      <a href="#armazenamento-seguranca">Segurança</a>
+      <a href="#terceiros">Terceiros</a>
+      <a href="#publicidade">Publicidade</a>
+      <a href="#assinaturas">Assinaturas</a>
+      <a href="#retencao">Retenção</a>
+      <a href="#direitos">Direitos</a>
+      <a href="#transferencia">Transferência internacional</a>
+      <a href="#criancas">Crianças e adolescentes</a>
+      <a href="#controlador">Controlador/DPO</a>
+      <a href="#alteracoes">Alterações</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
   <main>
-    <h2>Última atualização</h2>
+    <h2 id="atualizacao">Última atualização</h2>
     <p>02 de setembro de 2025</p>
 
-    <h2>1. Informações coletadas</h2>
+    <h2 id="informacoes">1. Informações coletadas</h2>
     <p>O <strong>MindCycle</strong> foi desenvolvido com foco em <strong>privacidade</strong>. O uso do aplicativo é possível de forma <strong>offline</strong>, sem necessidade de login, IA ou backup em nuvem.</p>
     <ul>
       <li><strong>Dados locais:</strong> hábitos, rotinas e configurações são armazenados diretamente no dispositivo do usuário.</li>
@@ -60,7 +122,7 @@
       <li><strong>Dados pessoais (opcionais):</strong> ao criar conta com e-mail/senha ou Google Sign-In, coletamos nome e e-mail apenas para autenticação e sincronização.</li>
     </ul>
 
-    <h2>2. Funcionalidades opcionais</h2>
+    <h2 id="funcionalidades-opcionais">2. Funcionalidades opcionais</h2>
     <p>O usuário pode optar por ativar recursos adicionais:</p>
     <ul>
       <li><strong>Sincronização em nuvem:</strong> realizada via Firebase/Firestore, garantindo backup automático e acesso em múltiplos dispositivos.</li>
@@ -68,37 +130,106 @@
     </ul>
     <p>Essas funcionalidades são <strong>totalmente opcionais</strong>, e o usuário pode utilizar o MindCycle sem IA e sem nuvem.</p>
 
-    <h2>3. Como utilizamos suas informações</h2>
+    <h2 id="base-legal">3. Base legal do tratamento (LGPD)</h2>
+    <ul>
+      <li><strong>Execução de contrato</strong>: para prestar as funcionalidades básicas do app (criar e gerenciar rotinas e hábitos).</li>
+      <li><strong>Consentimento</strong>: para recursos opcionais como sincronização em nuvem e geração de rotinas via IA.</li>
+      <li><strong>Cumprimento de obrigação legal</strong>: quando formos obrigados a reter ou disponibilizar dados por força de lei/ordem judicial.</li>
+      <li><strong>Legítimo interesse</strong> (se aplicável): melhorias de produto e prevenção a fraudes, sempre com avaliação de impacto e opção de oposição, quando cabível.</li>
+    </ul>
+
+    <h2 id="categorias-dados">4. Categorias de dados</h2>
+    <ul>
+      <li><strong>Dados de uso local</strong>: hábitos, rotinas, configurações e metadados (ex.: datas de criação/atualização). Permanecem no dispositivo.</li>
+      <li><strong>Conta/sincronização (opcional)</strong>: nome, e-mail, identificadores técnicos (ex.: UID), registros de sincronização.</li>
+      <li><strong>Dados para IA (opcional)</strong>: textos/pedidos enviados para geração de rotinas; recomendamos não inserir dados sensíveis.</li>
+      <li><strong>Dados de assinatura/compras</strong> (opcional): status de assinatura, período de validade, identificadores da loja (ex.: purchase token), histórico mínimo para reconciliação.</li>
+      <li><strong>Publicidade (AdMob)</strong> (opcional): identificadores de anúncio do dispositivo, eventos de exibição/clique; podem ser usados para <em>anúncios personalizados</em> mediante consentimento.</li>
+      <li><strong>Integridade/anti-fraude</strong>: tokens/veredictos de integridade (ex.: Play Integrity) processados para proteção contra abuso.</li>
+      <li><strong>Dados técnicos</strong>: idioma do sistema, versão do app, plataforma/versão do sistema, modelo do dispositivo, fuso horário — utilizados para compatibilidade e suporte.</li>
+    </ul>
+
+    <h2 id="finalidades">5. Como utilizamos suas informações</h2>
     <ul>
       <li>Permitir a criação, organização e acompanhamento de rotinas e hábitos.</li>
       <li>Fornecer backup e sincronização em nuvem, se habilitado.</li>
       <li>Gerar rotinas personalizadas via IA, se ativado pelo usuário.</li>
     </ul>
 
-    <h2>4. Armazenamento e segurança</h2>
-    <p>Os dados locais permanecem apenas no dispositivo do usuário. Quando ativada a sincronização em nuvem, os dados são armazenados de forma segura no Firebase. Adotamos práticas técnicas para proteger contra perda, uso indevido ou acesso não autorizado.</p>
+    <h2 id="armazenamento-seguranca">6. Armazenamento e segurança</h2>
+    <p>Os dados locais permanecem apenas no dispositivo do usuário. Quando ativada a sincronização em nuvem, os dados são armazenados de forma segura no Firebase. Adotamos práticas técnicas para proteger contra perda, uso indevido ou acesso não autorizado, incluindo:</p>
+    <ul>
+      <li>Criptografia em trânsito (TLS) e, no provedor, criptografia em repouso.</li>
+      <li>Regras de segurança do Firestore/Realtime Database adequadas ao princípio do mínimo privilégio.</li>
+      <li>Controles de acesso e segregação de ambientes/projetos.</li>
+      <li>Minimização de dados enviados à IA; não compartilhar dados sensíveis.</li>
+    </ul>
 
-    <h2>5. Compartilhamento de informações</h2>
+    <h2 id="compartilhamento">7. Compartilhamento de informações</h2>
     <p>Não vendemos, alugamos ou compartilhamos seus dados com terceiros. Informações só podem ser compartilhadas se exigidas por lei (ordem judicial).</p>
 
-    <h2>6. Serviços de terceiros</h2>
+    <h2 id="terceiros">8. Serviços de terceiros</h2>
     <ul>
       <li><strong>Firebase/Firestore (Google):</strong> para autenticação, backup e sincronização em nuvem.</li>
       <li><strong>OpenAI:</strong> para geração de rotinas personalizadas via IA (opcional).</li>
+      <li><strong>Google AdMob:</strong> veiculação de anúncios; pode utilizar identificadores de anúncio e preferências para <em>anúncios personalizados</em>, conforme consentimento.</li>
     </ul>
     <p>Recomendamos que consulte também as políticas de privacidade desses serviços.</p>
 
-    <h2>7. Seus direitos</h2>
+  <h2 id="publicidade">9. Publicidade e monetização</h2>
+  <p>O MindCycle pode exibir <strong>anúncios personalizados</strong> via Google AdMob. A base legal é o <strong>consentimento</strong>, que pode ser <em>gerenciado ou revogado</em> a qualquer momento pelas preferências do usuário (<em>ex.: Configurações &gt; Privacidade</em>) ou pelas configurações de anúncios do dispositivo. Sem consentimento, serão exibidos anúncios não personalizados (quando aplicável).</p>
+  <p>Utilizamos um <strong>gerenciador de consentimento (CMP)</strong> no aplicativo para coletar, registrar e atualizar suas preferências de privacidade. Você pode acessar em <em>Configurações &gt; Privacidade &gt; Gestão de consentimento</em>.</p>
     <ul>
-      <li>Acessar, editar ou excluir suas informações diretamente no aplicativo.</li>
-      <li>Exportar seus dados em JSON a qualquer momento.</li>
-      <li>Excluir sua conta e todos os dados associados, tanto local quanto em nuvem.</li>
+      <li>Dados tratados: identificadores de publicidade do dispositivo, eventos de exibição/clique e informações técnicas para prevenção de fraude.</li>
+      <li>Mais informações: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Políticas de Anúncios do Google</a></li>
     </ul>
 
-    <h2>8. Alterações nesta política</h2>
-    <p>Podemos atualizar esta Política de tempos em tempos. A versão mais recente sempre estará disponível dentro do aplicativo ou neste site.</p>
+    <h2 id="assinaturas">10. Assinaturas e compras no app</h2>
+    <p>Oferecemos recursos <strong>premium</strong> por assinatura (ex.: testes grátis, plano mensal). Para viabilizar a execução do contrato e prevenir fraude, tratamos dados mínimos sobre status de assinatura e comprovantes de compra.</p>
+    <ul>
+      <li><strong>Base legal:</strong> execução de contrato e, quando necessário, legítimo interesse (prevenção à fraude); guarda por obrigação legal pode se aplicar.</li>
+      <li><strong>Retenção:</strong> dados de assinatura podem ser retidos por <strong>30 dias</strong> após cancelamento para reconciliação e suporte.</li>
+    </ul>
 
-    <h2>9. Contato</h2>
+    <h2 id="retencao">11. Retenção e descarte</h2>
+    <p>Manteremos os dados apenas pelo tempo necessário para as finalidades informadas ou conforme exigências legais.</p>
+    <ul>
+      <li><strong>Dados locais:</strong> permanecem no seu dispositivo até que você os exclua ou desinstale o app.</li>
+  <li><strong>Conta/sincronização (nuvem):</strong> removidos quando você exclui sua conta, dentro de <strong>7 dias</strong>, observadas retenções legais.</li>
+      <li><strong>Assinaturas/compras:</strong> retidas por <strong>30 dias</strong> após cancelamento para reconciliação/suporte.</li>
+      <li><strong>Rotinas geradas por IA:</strong> <strong>descartadas após a resposta</strong>; não mantemos histórico no servidor além do processamento.</li>
+      <li><strong>Armazenamento temporário/KV:</strong> salvo indicação em contrário, os dados podem permanecer <em>até que você solicite a exclusão</em> ou conforme limpeza administrativa. Você pode remover seus dados da nuvem pelo app em <em>Configurações &gt; Gestão de Dados</em>.</li>
+    </ul>
+
+  <h2 id="direitos">12. Seus direitos</h2>
+    <ul>
+      <li>Acessar, editar ou excluir suas informações diretamente no aplicativo.</li>
+      <li>Excluir sua conta e todos os dados associados, tanto local quanto em nuvem.</li>
+      <li>Solicitar confirmação de tratamento, portabilidade, anonimização ou revogação de consentimento (quando a base legal for consentimento).</li>
+  <li>Entrar em contato pelo canal indicado para solicitações LGPD; prazo de resposta: <strong>15 dias</strong>.</li>
+    </ul>
+
+  <h2 id="transferencia">13. Transferência internacional e subprocessadores</h2>
+    <p>Os serviços de terceiros utilizados (ex.: Google Firebase e OpenAI) podem envolver transferência internacional de dados para países como os Estados Unidos. Buscamos contratar fornecedores que adotem salvaguardas adequadas de proteção de dados. Consulte também:</p>
+    <ul>
+      <li>Google/Firebase: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade</a> | <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidade no Firebase</a></li>
+      <li>OpenAI: <a href="https://openai.com/policies" target="_blank" rel="noopener">Políticas da OpenAI</a></li>
+    </ul>
+
+  <h2 id="criancas">14. Crianças e adolescentes</h2>
+  <p>O MindCycle é um app livre voltado à produtividade e <strong>não é direcionado a menores de 13 anos</strong>. Não coletamos intencionalmente dados pessoais de crianças. Caso identifique uso indevido, entre em contato para remoção imediata.</p>
+
+  <h2 id="controlador">15. Controlador e Encarregado (DPO)</h2>
+    <p><strong>Controlador:</strong> <em>preencher Razão Social/Nome</em> (<em>preencher CNPJ, se aplicável</em>)<br>
+    <strong>Endereço:</strong> <em>preencher endereço</em><br>
+    <strong>Encarregado/DPO:</strong> <em>preencher nome</em> — 📧 <a href="mailto:vinidevcontato1@gmail.com">vinidevcontato1@gmail.com</a></p>
+
+  <h2 id="alteracoes">16. Alterações nesta política</h2>
+    <p>Podemos atualizar esta Política de tempos em tempos. A versão mais recente sempre estará disponível dentro do aplicativo ou neste site. Quando apropriado, forneceremos aviso de mudanças relevantes.</p>
+
+  <div class="note">Observação: anúncios personalizados (AdMob) utilizam consentimento (gerenciado via CMP no app); rotinas IA são descartadas após resposta; dados de assinatura retidos por 30 dias pós cancelamento; armazenamento KV até exclusão via app; remoção de dados em nuvem em até 7 dias; prazo de resposta LGPD: 15 dias.</div>
+
+  <h2 id="contato">17. Contato</h2>
     <p>Se tiver dúvidas ou solicitações, entre em contato:<br>
     📧 <a href="mailto:vinidevcontato1@gmail.com">vinidevcontato1@gmail.com</a></p>
   </main>
